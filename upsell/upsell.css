@@ -1,0 +1,25 @@
+.abertura__corpo{margin-top:14px}
+.abertura .titulo__b{white-space:normal}
+.recusa{display:flex;align-items:center;justify-content:center;width:100%;max-width:440px;min-height:48px;margin-top:6px;color:var(--preto-suave);font-size:16px;text-underline-offset:3px}
+.recusa--clara{max-width:none;color:var(--preto)}
+.recusa:focus-visible{outline-color:currentColor}
+.mock-nota{margin-top:2px;padding-inline:var(--lado);font-size:15px;color:var(--preto-suave);text-align:center}
+
+.recursos{background:var(--nude);color:var(--preto);padding-block:var(--sec)}
+.recursos__lista{margin-top:26px;border-top:1px solid var(--nude-linha)}
+.recursos__lista li{padding:20px 0;border-bottom:1px solid var(--nude-linha)}
+.recursos h3{font:400 clamp(25px,6.9vw,32px)/1.12 var(--serif);color:var(--vinho);text-wrap:balance}
+.recursos p{margin-top:7px;max-width:58ch;text-wrap:pretty}
+
+.oferta{padding-block:var(--sec)}
+.up-cartao{max-width:640px;margin-inline:auto;padding-top:30px}
+.up-cartao .oferta__titulo>span{line-height:1.2}
+.up-cartao .oferta__titulo .script{display:block;margin-left:0;font-size:1.55em;line-height:1.2}
+.up-cartao .inclui{margin-top:20px}
+.up-nota{margin-top:12px;font-size:15px;text-wrap:pretty}
+
+@media (min-width:1000px){
+  .recursos__grade{display:grid;grid-template-columns:5fr 7fr;column-gap:64px;align-items:start}
+  .recursos__lista{margin-top:6px}
+  .up-cartao{padding:44px}
+}
