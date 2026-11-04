@@ -1,7 +1,7 @@
 /* ==== CONFIGURAÇÃO: preencha aqui ==== */
 const CONFIG = {
   preco: '27',      // Vazio: o preço não aparece na página.
-  compraUrl: '',    // link ou ação de compra do upsell na Cakto.
+  compraUrl: 'https://pay.cakto.com.br/hiews3k_1280043',    // link ou ação de compra do upsell na Cakto.
   recusaUrl: '',    // para onde vai quem recusa. Vazio: o link de recusa não aparece.
   pixelId: '',      // ID do Meta Pixel. Vazio: o Pixel não é carregado.
   fimDaVenda: '2026-11-28T00:00:00-03:00',
